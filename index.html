@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weather-form">
+            <input type="text" id="location-input" placeholder="Enter location (e.g., city or ZIP code)" required>
+            
+           
+            <label for="unit-select">Select Unit:</label>
+            <select id="unit-select">
+                <option value="metric">Celsius (°C)</option>
+                <option value="imperial">Fahrenheit (°F)</option>
+            </select>
+           
+<label for="geolocation-checkbox">Use My Location:</label>
+<input type="checkbox" id="geolocation-checkbox">
+<button tpe="submit">Get Weather</button>
+
+
+        </form>
+        <div id="weather-data">
+     
+        </div>
+    </div>
+    <div id="weather-data">
+        
+        <img id="weather-icon" src="" alt="Weather Icon">
+    </div>
+    
+ 
+    <script src="script.js"></script>
+</body>
+</html>
